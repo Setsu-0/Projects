@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejemplo de Etiquetas Semanticas</title>
+    </head>
+    <body>
+
+        <header>
+            <h1>El Mundo del Arte</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Ultimas Noticias</h2>
+                <article>
+                    <h3>La exposicion del arte moderno</h3>
+                    <figure>
+                        <img src="https://mymodernmet.com/wp/wp-content/uploads/2017/10/modern-art-van-gogh-starry-night-thumbnail.jpg" width="250" height="150" alt="Exposicion de arte moderno">
+                        <figcaption>Visita nuestra exposicion de arte moderno.</figcaption>
+                    </figure>
+                    <p>La exposicion de arte moderno se llevara a cabo del 10 al 20 de abril en nuestro museo.</p>
+                </article>
+            </section>
+
+            <aside>
+                <h2>Publicidad</h2>
+                <p>;Descubre nuestra nueva coleccion de arte contemporaneo!</p>
+            </aside>
+        </main>
+
+        <footer>
+            <p>&cpoy; 2023 El Mundo Del Arte. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html> 
